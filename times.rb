@@ -19,3 +19,13 @@ puts"演示4"
 5.times do |i|
   puts "第#{i+1}次的循环"
 end
+
+
+puts "演示5"
+from = 10
+to = 20
+sum = 0
+(to - from + 1).times do |i|
+  sum = sum + i # 相当于 sum + = i
+end
+puts sum
