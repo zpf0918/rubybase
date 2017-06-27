@@ -1,3 +1,4 @@
+puts "times是方法"
 puts"演示1"
 5.times do
   puts "ruby on rails"
