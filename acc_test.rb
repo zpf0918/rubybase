@@ -9,10 +9,11 @@ class AccTest
     puts "priv is a private method"
   end
 
-  private :priv # 把priv 方法设定为private
+  protected :priv # 把priv 方法设定为private
+
+
+  acc = AccTest.new
+  acc.pub
+  acc.priv
 
 end
-
-acc = AccTest.new
-acc.pub
-acc.priv
