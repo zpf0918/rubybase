@@ -1,5 +1,5 @@
 def cels2fahr(cels)
-   cels * 9.0 / 5.0 + 32.0
+   cels * 9 / 5 + 32
 end
 print "请输入摄氏度"
 
