@@ -1,6 +1,10 @@
 def cels2fahr(cels)
-  return cels * 9.0 / 5.0 + 32.0
+   cels * 9.0 / 5.0 + 32.0
 end
+print "请输入摄氏度"
 
+a = gets
 
-puts cels2fahr(5.0)
+fahr = cels2fahr(a.to_f)
+
+puts "华氏度为 #{fahr}"
