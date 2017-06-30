@@ -5,4 +5,4 @@ def max(a,b)
    return b
 end
 
-p max(4,5)
+p max(7,5)
