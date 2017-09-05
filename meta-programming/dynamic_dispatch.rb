@@ -24,6 +24,3 @@ class Computer
     result
   end
 end
-
-my_computer = Computer.new(42, 89)
-my_computer.cpu
