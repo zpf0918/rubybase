@@ -23,4 +23,9 @@ class Computer
     return "* #{result}" if price >= 100
     result
   end
+
+def hello_world
+  "hello_world"
+end
+
 end

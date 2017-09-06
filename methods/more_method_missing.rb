@@ -1,10 +1,10 @@
 class Lawyer
   def method_missing(method, *args)
-    puts "You called: #{method} (#{args.join(',')})"
+    puts "歪脖子鹅"
     puts "You also passed it a block" if block_given?
   end
 end
 
 bob = Lawyer.new
-bob.talk_simple('a', 'b', 'c') do
+bob.talk() do
 end
